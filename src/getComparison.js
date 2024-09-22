@@ -10,7 +10,7 @@ const getComparison = (obj1, obj2) => {
     if (!Object.hasOwn(obj2, key)) return `  - ${key}: ${obj1[key]}\n`;
     if (obj1[key] !== obj2[key]) return `  - ${key}: ${obj1[key]}\n  + ${key}: ${obj2[key]}\n`;
     return `    ${key}: ${obj1[key]}\n`;
-  })
+  });
   return `{\n${result.join('')}}`;
 };
 
