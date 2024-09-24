@@ -8,7 +8,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/68f3144ff1094c329628/test_coverage)](https://codeclimate.com/github/Pajzer/frontend-project-46/test_coverage)
 
 
-### Сравнение json файлов
+### Сравнение плоских json файлов
 
 Команда:
 
@@ -18,7 +18,7 @@
 [![asciicast](https://asciinema.org/a/TmJMnQmHO9cAI2q4RdJ7VTmtm.svg)](https://asciinema.org/a/TmJMnQmHO9cAI2q4RdJ7VTmtm)
 
 
-### Сравнение yaml файлов
+### Сравнение плоских yaml файлов
 
 Команда:
 
@@ -26,3 +26,7 @@
    gendiff __fixtures__/file1.yml __fixtures__/file2.yml
    ```
 [![asciicast](https://asciinema.org/a/2WcjQMu6YxvXMgyjvurPIt2p4.svg)](https://asciinema.org/a/2WcjQMu6YxvXMgyjvurPIt2p4)
+
+### Рекурсивное сравнение
+
+[![asciicast](https://asciinema.org/a/rNlPbuyxzdhvOnPIGHMTeh0cJ.svg)](https://asciinema.org/a/rNlPbuyxzdhvOnPIGHMTeh0cJ)
