@@ -30,3 +30,13 @@
 ### Рекурсивное сравнение
 
 [![asciicast](https://asciinema.org/a/rNlPbuyxzdhvOnPIGHMTeh0cJ.svg)](https://asciinema.org/a/rNlPbuyxzdhvOnPIGHMTeh0cJ)
+
+
+### Плоский формат
+
+Команда:
+
+   ```sh
+   gendiff -f plain __fixtures__/file1.yml __fixtures__/file2.yml
+   ```
+ [![asciicast](https://asciinema.org/a/tUcNdLVjBlqJTYhKhfzllF4rM.svg)](https://asciinema.org/a/tUcNdLVjBlqJTYhKhfzllF4rM)  
