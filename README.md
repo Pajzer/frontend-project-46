@@ -1,3 +1,6 @@
+# Вычислитель отличий
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pajzer/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pajzer/frontend-project-46/actions)
 
@@ -6,6 +9,21 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/68f3144ff1094c329628/maintainability)](https://codeclimate.com/github/Pajzer/frontend-project-46/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/68f3144ff1094c329628/test_coverage)](https://codeclimate.com/github/Pajzer/frontend-project-46/test_coverage)
+
+
+### Описание
+
+Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.
+Возможности утилиты:
+- Поддержка разных входных форматов: yaml, json
+- Генерация отчета в виде plain text, stylish и json
+
+
+### Установка
+
+make install
+
+## Пример использования
 
 
 ### Сравнение плоских json файлов
@@ -39,4 +57,14 @@
    ```sh
    gendiff -f plain __fixtures__/file1.yml __fixtures__/file2.yml
    ```
- [![asciicast](https://asciinema.org/a/tUcNdLVjBlqJTYhKhfzllF4rM.svg)](https://asciinema.org/a/tUcNdLVjBlqJTYhKhfzllF4rM)  
+[![asciicast](https://asciinema.org/a/tUcNdLVjBlqJTYhKhfzllF4rM.svg)](https://asciinema.org/a/tUcNdLVjBlqJTYhKhfzllF4rM)
+
+
+ ### Вывод в json
+
+Команда:
+
+   ```sh
+   gendiff -f json __fixtures__/file1.yml __fixtures__/file2.yml
+   ```
+[![asciicast](https://asciinema.org/a/Yv4W9z3IGarVo6cKE73KSlmH1.svg)](https://asciinema.org/a/Yv4W9z3IGarVo6cKE73KSlmH1)   
