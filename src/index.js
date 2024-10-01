@@ -5,7 +5,7 @@ import parse from './parses.js';
 import getReport from './formatters/index.js';
 
 const fullPath = (filepath) => path.resolve(process.cwd(), filepath);
-const extractFormat = (filepath) => path.extname(filepath);
+const extractFormat = (filepath) => path.extname(filepath).slice(1);
 const getData = (filepath) => {
   const patch = fullPath(filepath);
   return parse(fs.readFileSync(patch), extractFormat(filepath));
